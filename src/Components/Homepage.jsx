@@ -11,8 +11,6 @@ function Homepage() {
         <NavLink style={({isActive})=>({color:isActive? "red":"blue"})} to="/"><li>Home</li></NavLink>
         
         <Link to="/contact"><li>Contact</li></Link>
-        <Link to="/article"><li>Article</li></Link>
-        <Link to="/Profile/rahul"><li>Profile</li></Link>
       </ul>
     </>
   )
