@@ -1,32 +1,15 @@
-import React,{useState} from 'react'
-import {Route, Routes} from 'react-router-dom'
-import {Link, NavLink} from 'react-router-dom'
-import { useNavigate } from 'react-router-dom'
-
-
-
-function Contact() {
-  const [name, setname]= setstate()
-  const navigate = useNavigate()
-
-  
-}
+import React from 'react'
 
 function Contact() {
   return (
-
     <>
-    <h1>
-      Contact
-    </h1>
-    <form>
-        <input type="text" placeholder="Your Name" style={CSS}/>
-    </form>
-      
+      <h1>Contact</h1>
+      <form>
+        <input type="text" placeholder="Your Name" />
+      </form>
     </>
-    
-    
   )
 }
 
 export default Contact
+
